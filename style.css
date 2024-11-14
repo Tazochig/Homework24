@@ -1,0 +1,84 @@
+.container {
+  width: 1440px;
+  height: 800px;
+  background-color: rgb(31, 30, 41);
+  position: relative;
+}
+.saati {
+  width: 688px;
+  height: 184px;
+  top: 268px;
+  left: 376px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Meotxedi {
+  width: 148px;
+  height: 284px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 14px;
+  display: flex;
+}
+.word {
+  font-family: Red Hat Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(131, 133, 169, 1);
+  text-transform: uppercase;
+}
+.cifri {
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  color: rgba(251, 94, 132, 1);
+}
+.charcho {
+  width: 148px;
+  height: 140px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #2c2e44;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  position: absolute;
+  top: 600px;
+}
+.launch {
+  width: 438px;
+  height: 29px;
+  left: 4.5px;
+  font-family: Red Hat Text;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29.11px;
+  letter-spacing: 7.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 135px;
+  left: 500.5px;
+  text-transform: uppercase;
+}
