@@ -17,7 +17,7 @@
 
 .Meotxedi {
   width: 148px;
-  height: 284px;
+  height: 200px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -81,4 +81,72 @@
   top: 135px;
   left: 500.5px;
   text-transform: uppercase;
+}
+
+@media (max-width: 375px) {
+  .charcho {
+    width: 70px;
+    height: 66.27px;
+  }
+  .logos {
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    top: 595px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .saati {
+    width: 327px;
+    height: 92px;
+    top: 244px;
+    left: 28px;
+  }
+  .launch {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.81px;
+    letter-spacing: 6.136363506317139px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 327px;
+    height: 48px;
+    top: 142px;
+    left: 28px;
+  }
+  .word {
+    font-family: Red Hat Text;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9.26px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 70px;
+  }
+  .cifri {
+    font-family: Red Hat Text;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .container {
+    width: 375px;
+    height: 667px;
+  }
+  .footer {
+    height: 168px;
+    top: 500px;
+    width: 375px;
+  }
+  .stars {
+    display: none;
+  }
 }
